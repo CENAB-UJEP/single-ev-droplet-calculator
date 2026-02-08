@@ -29,6 +29,10 @@ git remote add origin https://github.com/<ORG_OR_USER>/single-ev-droplet-calcula
 git push -u origin main
 ```
 
+Current repository URL:
+
+- `https://github.com/MichaLie/single-ev-droplet-calculator.git`
+
 ## 4. Suggested release tag
 
 ```bash
@@ -40,4 +44,3 @@ git push origin v0.1.0
 
 - In the manuscript data-availability section, replace local path reference with GitHub URL and release tag/commit hash.
 - Optional: archive the release on Zenodo and cite DOI in the manuscript.
-
