@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Single-EV Droplet Occupancy Calculator"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Review Team"
+    given-names: "Single-EV"
+version: "0.1.0"
+date-released: 2026-02-08
+license: MIT
+repository-code: "https://github.com/your-org/single-ev-droplet-calculator"
+

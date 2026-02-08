@@ -1,0 +1,19 @@
+{
+  "summary_example": {
+    "lambda": 0.1,
+    "n_droplets": 250000,
+    "q_qc": 0.6,
+    "q_identity": 0.7
+  },
+  "compare_example": {
+    "lambda_a": 0.1,
+    "lambda_b": 0.2
+  },
+  "planning_example": {
+    "target_single_events": 10000,
+    "lambda": 0.1,
+    "q_qc": 0.6,
+    "q_identity": 0.7
+  }
+}
+
