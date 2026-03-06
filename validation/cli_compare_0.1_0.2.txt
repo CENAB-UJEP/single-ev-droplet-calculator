@@ -1,0 +1,4 @@
+lambda_a: 0.100000
+lambda_b: 0.200000
+Single-event yield ratio (b/a): 1.809675
+Multiplet burden ratio (b/a): 3.745180

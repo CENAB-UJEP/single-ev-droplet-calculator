@@ -1,0 +1,12 @@
+test_anchor_lambda_010 (test_core.TestCoreMath.test_anchor_lambda_010) ... ok
+test_anchor_lambda_020 (test_core.TestCoreMath.test_anchor_lambda_020) ... ok
+test_compare_ratios (test_core.TestCoreMath.test_compare_ratios) ... ok
+test_invalid_inputs (test_core.TestCoreMath.test_invalid_inputs) ... ok
+test_lambda_ci (test_core.TestCoreMath.test_lambda_ci) ... ok
+test_lambda_from_empty (test_core.TestCoreMath.test_lambda_from_empty) ... ok
+test_required_droplets_planning (test_core.TestCoreMath.test_required_droplets_planning) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.000s
+
+OK

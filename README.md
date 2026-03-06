@@ -2,8 +2,16 @@
 
 Lightweight, tested calculator for occupancy-aware single-EV droplet assay design and reporting.
 
-This package was built to support the review manuscript:
-`/Users/michaelaliegertova/Desktop/Codex_review_Jirka/review_manuscript_full_draft_BBE_v3.md`
+Companion code for the review manuscript:
+> *Droplet microfluidics for single-extracellular-vesicle analysis* (submitted to Biotechnology and Bioengineering)
+
+## Try it online (no install)
+
+**Web calculator:** [michalie.github.io/single-ev-droplet-calculator](https://michalie.github.io/single-ev-droplet-calculator/)
+— interactive browser app with Summary, Compare, Plan tabs and a live occupancy chart.
+
+**Colab notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MichaLie/single-ev-droplet-calculator/blob/main/examples/interactive_calculator.ipynb)
+— run the Python package interactively, no local install needed.
 
 ## Scope
 
@@ -32,10 +40,11 @@ Planning:
 - `Expected_interpreted_single_events = N_droplets * P_single * q_qc * q_identity`
 - `Required_droplets = Target_interpreted_single_events / (P_single * q_qc * q_identity)`
 
-## Install (local)
+## Install
 
 ```bash
-cd /Users/michaelaliegertova/Desktop/Codex_review_Jirka/single_ev_droplet_calculator
+git clone https://github.com/MichaLie/single-ev-droplet-calculator.git
+cd single-ev-droplet-calculator
 python3 -m pip install -e .
 ```
 
@@ -81,14 +90,25 @@ Ratios (`0.20` vs `0.10`):
 Uses Python `unittest` (no pytest dependency required):
 
 ```bash
-cd /Users/michaelaliegertova/Desktop/Codex_review_Jirka/single_ev_droplet_calculator
 python3 -m unittest discover -s tests -v
+```
+
+## Reproduce anchor table
+
+```bash
+python3 scripts/reproduce_anchor_table.py
 ```
 
 ## Files
 
-- `single_ev_droplet_calculator/core.py` main math functions
-- `single_ev_droplet_calculator/cli.py` command-line interface
-- `tests/test_core.py` numeric and validation tests
-- `scripts/reproduce_anchor_table.py` reproducible anchor table generator
+- `single_ev_droplet_calculator/core.py` — main math functions
+- `single_ev_droplet_calculator/cli.py` — command-line interface
+- `tests/test_core.py` — numeric and validation tests
+- `scripts/reproduce_anchor_table.py` — reproducible anchor table generator
+- `examples/interactive_calculator.ipynb` — Colab notebook (zero-install demo)
+- `examples/example_inputs.json` — sample CLI inputs
+- `validation/` — saved CLI and test outputs for traceability
 
+## License
+
+MIT
