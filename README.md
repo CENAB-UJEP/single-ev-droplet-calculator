@@ -7,10 +7,10 @@ Companion code for the review manuscript:
 
 ## Try it online (no install)
 
-**Web calculator:** [michalie.github.io/single-ev-droplet-calculator](https://michalie.github.io/single-ev-droplet-calculator/)
+**Web calculator:** [https://cenab-ujep.github.io/single-ev-droplet-calculator/)
 — interactive browser app with Summary, Compare, Plan tabs and a live occupancy chart.
 
-**Colab notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MichaLie/single-ev-droplet-calculator/blob/main/examples/interactive_calculator.ipynb)
+**Colab notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cenab-ujep/single-ev-droplet-calculator/blob/main/examples/interactive_calculator.ipynb)
 — run the Python package interactively, no local install needed.
 
 ## Scope
@@ -43,7 +43,7 @@ Planning:
 ## Install
 
 ```bash
-git clone https://github.com/MichaLie/single-ev-droplet-calculator.git
+git clone https://cenab-ujep.com/MichaLie/single-ev-droplet-calculator.git
 cd single-ev-droplet-calculator
 python3 -m pip install -e .
 ```
